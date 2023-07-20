@@ -9,8 +9,8 @@ public class Application {
      */
     public static void main(String[] args) {
         System.out.println("When a Player is created with a one-arg constructor,");
-        System.out.println("it should have the provided name and a level of zero.");
-        System.out.println("Creating player 'Makro', should have the name 'Makro' and a level of 0: ");
+        System.out.println("it should have the provided name and a level of one.");
+        System.out.println("Creating player 'Makro', should have the name 'Makro' and a level of 1: ");
         Player p1 = new Player("Makro");
         System.out.println("His name is: " + p1.playerName);
         System.out.println("His level is : " + p1.level);
